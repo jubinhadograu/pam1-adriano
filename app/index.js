@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
+import styles from '../estilo';
 
 export default function Page() {
   return (
