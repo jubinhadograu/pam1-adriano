@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
+import {Link} from "expo-router";
 import styles from '../estilo';
 
 export default function Page() {
@@ -7,30 +8,8 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>Olá Mundo!</Text>
         <Text style={styles.subtitle}>SMT</Text>
+        <Link href={"/cadastro"}>CADASTRO</Link>     
       </View>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    padding: 24,
-  },
-  main: {
-    flex: 1,
-    justifyContent: "center",
-    maxWidth: 960,
-    marginHorizontal: "auto",
-  },
-  title: {
-    fontSize: 64,
-    fontWeight: "bold",
-    color: "pink"
-  },
-  subtitle: {
-    fontSize: 36,
-    color: "#38434D",
-  },
-});

@@ -1,16 +1,23 @@
 import React, {useState, useEffect} from "react";
-import { View, Text, TextInput, ToachableOpacity, Pressable } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, Pressable } from "react-native";
 import { Link } from "expo-router";
 import styles from '../estilo';
 
-export default function Cadastro () {
+const Cadastro = () => {
     return (
-        <View>
-            <text>Cadastro de Endereço</text>
-            <TextInput value={'00000-000'} />
-            <ToachableOpacity>
-                <Text>Buscar Dados</Text>
-            </ToachableOpacity>
+        <View style={styles.container}>
+            <Link href={'/'}>Voltar</Link>
+            <Text>Cadastro de Endereço</Text>
+            <TextInput
+            style={styles.subtitle}
+            placeholder={'00000-000'}/>
+            <TouchableOpacity>
+                <Text>
+                    Buscar Dados
+                </Text>
+            </TouchableOpacity>
         </View>
     )
 }
+
+export default Cadastro;

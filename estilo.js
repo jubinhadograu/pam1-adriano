@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default styles = StyleSheet.create({
+export default Styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: "center",
@@ -21,4 +21,19 @@ export default styles = StyleSheet.create({
       fontSize: 36,
       color: "#38434D",
     },
+    title2: {
+      fontSize: 32,
+      fontWeight: "bold",
+      textAlign: "center",
+      width: 1.0,
+
+    },
+    input: {
+      fontSize: 24,
+      borderRadius: 16,
+      borderWidth: 1,
+      padding: 16,
+      minWidth: 300,
+      margin: 8,
+    }
   });
