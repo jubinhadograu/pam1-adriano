@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { View, Text, TextInput, TouchableOpacity, Pressable } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Pressable } from "react-native";
 import { Link } from "expo-router";
 import styles from '../estilo';
 

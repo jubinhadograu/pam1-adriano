@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
-import { View, Text, TextInput, TouchableOpacity, Pressable } from 'react-native';
+import React, {useState, useEffect} from "react";
+import { View, Text, TextInput, TouchableOpacity, Pressable } from "react-native";
 import { Link } from "expo-router";
 import styles from '../estilo';
 
-export default function Cadastro() {
+const Cadastro = () => {
     return (
         <View style={styles.container}>
             <Link href={'/'}>Voltar</Link>
@@ -11,11 +11,9 @@ export default function Cadastro() {
             <TextInput
             style={styles.subtitle}
             placeholder={'00000-000'}/>
-            <TouchableOpacity>
-                <Text>
-                    Buscar Dados
-                </Text>
-            </TouchableOpacity>
+
         </View>
-    );
+    )
 }
+
+export default Cadastro;

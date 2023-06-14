@@ -12,6 +12,7 @@ export default Styles = StyleSheet.create({
       justifyContent: "center",
       maxWidth: 960,
       marginHorizontal: "auto",
+      backgroundColor: "pink",
     },
     title: {
       fontSize: 64,

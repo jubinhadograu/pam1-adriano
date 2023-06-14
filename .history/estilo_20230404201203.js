@@ -5,13 +5,14 @@ export default Styles = StyleSheet.create({
       flex: 1,
       alignItems: "center",
       padding: 24,
-      backgroundColor: "black",
+      backgroundColor: pink,
     },
     main: {
       flex: 1,
       justifyContent: "center",
       maxWidth: 960,
       marginHorizontal: "auto",
+      backgroundColor: "pink"
     },
     title: {
       fontSize: 64,
